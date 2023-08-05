@@ -45,6 +45,7 @@ body {
     background-size: cover;
     padding: 100px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .c1 {
@@ -60,7 +61,7 @@ body {
 }
 
 .startbutton{
-    display: block;
+    display: flex;
     justify-content: center;
     padding-top: 50px;
 }
