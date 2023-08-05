@@ -56,11 +56,11 @@ body {
 }
 
 .c1left { 
-    flex: 2;
+    flex: 6;
 }
 
 .startbutton{
-    display: flex;
+    display: block;
     justify-content: center;
     padding-top: 50px;
 }
@@ -85,7 +85,9 @@ body {
 }
 
 .c1right {
-    flex: 1;
+    flex: 4;
+    display: flex;
+    justify-content: center;
 }
 
 #kyurem {
