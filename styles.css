@@ -44,11 +44,9 @@ body {
     background-attachment: fixed;
     background-size: cover;
     padding: 100px;
-    flex: content;
 }
 
 .c1 {
-    
     display: flex;
     border:5px solid #1f2937 ;
     justify-content: space-around;
