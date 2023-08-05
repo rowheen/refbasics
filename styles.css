@@ -43,6 +43,7 @@ body {
     background-image: url('regice.png');
     background-attachment: fixed;
     background-size: cover;
+    width: 100%;
     margin-top: 30px;
     padding: 2px;
 }
