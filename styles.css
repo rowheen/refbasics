@@ -54,6 +54,7 @@ body {
     justify-content: space-around;
     padding: 50px 30px;
     gap: 20px;
+    width: 100%;
 }
 
 .c1left { 
