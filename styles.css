@@ -43,7 +43,6 @@ body {
     background-image: url('regice.png');
     background-attachment: fixed;
     background-size: cover;
-    width: 100%;
     justify-content: center;
 }
 
@@ -52,8 +51,8 @@ body {
     display: flex;
     margin:  100px 0px;
     border:5px solid #1f2937 ;
-    padding: 50px 60px;
-    gap: 50px;
+    padding: 50px 30px;
+    justify-content: space-around;
 }
 
 .c1left { 
