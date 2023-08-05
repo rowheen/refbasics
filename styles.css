@@ -51,6 +51,7 @@ body {
     
     display: flex;
     border:5px solid #1f2937 ;
+    justify-content: space-around;
     padding: 50px 30px;
     gap: 20px;
 }
