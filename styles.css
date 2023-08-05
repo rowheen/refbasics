@@ -41,7 +41,6 @@ body {
 .container1 {
     display: flex;
     background-image: url('regice.png');
-    background-position: center;
     background-attachment: fixed;
     background-size: cover;
     margin-top: 30px;
