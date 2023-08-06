@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 0px;
     font-family:Arial, Helvetica, sans-serif;
     background-color: #1f2937;
 }
@@ -38,20 +38,26 @@ body {
     font-weight:bold;
 }
 
+
+
 .container1 {
     display: flex;
     background-image: url('regice.png');
     background-size: cover;
-    padding: 100px;
+    background-attachment: fixed;
+    padding: 90px;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 60px;
+    background-position-x: center;
+    background-position-y: 65px;
 }
 
 .c1 {
     display: flex;
     border:5px solid #1f2937 ;
     justify-content: space-around;
-    padding: 50px 30px;
+    padding: 30px;
     gap: 20px;
     flex-wrap: wrap-reverse;
 
@@ -109,4 +115,57 @@ padding: 10px;
     font-size: 18px;
     color: whitesmoke;
     padding-top: 10px;
+}
+
+.container2 {
+    background-color: #789ed6;
+    background-size: contain;
+    padding: 70px;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #1f2937;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1;
+    gap: 30px;
+    padding: 100px 20px;
+    border: 5px solid #1f2937;
+    margin: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+
+#icon1, #icon2, #icon3, #icon4 {
+    border: 5px solid #1f2937;
+    height: fit-content;
+    width: 100px;
+    text-align: center;
+    background-color: #425776;
+    font-size: 18px;
+    font-weight: 100;
+    align-items: baseline;
+}
+
+#icon1:hover, #icon2:hover, #icon3:hover, #icon4:hover {
+    border: 5px solid #425776;
+    background-color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+    color:white;
+}
+
+a:hover {
+    color: #1f2937;
+
 }
