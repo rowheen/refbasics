@@ -2,8 +2,6 @@ body {
     margin: 0;
     font-family:Arial, Helvetica, sans-serif;
     background-color: #1f2937;
-    flex-wrap: wrap;
-
 }
 
 .navbar {
@@ -43,12 +41,10 @@ body {
 .container1 {
     display: flex;
     background-image: url('regice.png');
-    background-attachment: fixed;
     background-size: cover;
     padding: 100px;
     justify-content: center;
     flex-wrap: wrap;
-
 }
 
 .c1 {
