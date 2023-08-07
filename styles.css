@@ -149,6 +149,7 @@ padding: 10px;
     background-color: #425776;
     font-size: 18px;
     font-weight: 100;
+    display: flex;
 }
 
 #icon1:hover, #icon2:hover, #icon3:hover, #icon4:hover {
